@@ -5,6 +5,10 @@ on:
   push:
     branches:
       - main
+    
+    # only run deploys when public changes
+    paths:
+      - 'public/**'
 
 jobs:
   deploy:
