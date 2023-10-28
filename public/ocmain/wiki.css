@@ -1,0 +1,37 @@
+.infotable {
+  float: right;
+  background-color: var(--dark-other);
+  width: 25%;
+  padding-left: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  border: 2px solid var(--link);
+}
+
+.infotable img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.left-top {
+  text-align: left;
+  vertical-align: top;
+}
+
+.trcat {
+  background-color: var(--link)
+}
+
+@media (max-width:950px) {
+  .infotable {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width:750px) {
+  .infotable {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

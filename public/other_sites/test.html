@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>badading badaboom why are you here</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <style>
+      .container {
+         overflow: hidden;
+      }
+
+      .sliding-background {
+         background: url("https://afellowu.neocities.org/images/space.jpeg") repeat-x;
+         background-attachment: fixed;
+         height: 1080px;
+         width: 7680px;
+         animation: slide 65s linear infinite;
+      }
+
+      @keyframes slide {
+        0% {
+       transform: translate3d(0, 0, 0);
+       }
+        100% {
+      transform: translate3d(-3840px, 0, 0);
+       }
+      }
+    </style>
+    <script>
+    window.onload = setTimeout(waitLoad, 500);
+    
+
+
+      function waitLoad(){
+        
+      let bgm = new Audio("https://file.garden/ZSrdnyDRyR84aPOn/artworks_host/ceiling_loop.mp3");
+bgm.loop = true;
+document.body.append(bgm);
+bgm.play().catch(()=>{
+    document.addEventListener("click", ()=>{
+        bgm.play();
+    }
+    , {
+        once: true
+    });
+}
+);
+      
+         window.onfocus = function () {
+        bgm.muted = false
+    };
+    window.onblur = function () {
+        bgm.muted = true
+    };
+}
+      
+
+
+    </script>
+  </head>
+  <body>
+  
+      <h2>there really isn't too much here this is just a testing page</h2>
+      
+      <div class="container">
+    <div class="sliding-background"></div>
+  </div>
+  </body>
+</html>
