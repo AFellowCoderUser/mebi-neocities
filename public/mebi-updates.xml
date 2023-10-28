@@ -6,6 +6,13 @@
     <link>https://afellowu.neocities.org</link>
     <description>Mebi's personal site. A place where I'll show of my OCs and artworks.</description>
     <language>en-us</language>
+    <item>
+        <title>Footer added and RSS feed</title>
+        <pubDate>Sat, 28 Oct 2023 18:05:00 EST</pubDate>
+        <link>https://afellowu.neocities.org/</link>
+        <guid>https://afellowu.neocities.org/</guid>
+        <description>Site now updates with the Deploy to Neocities Github action.</description>
+        </item>
         <item>
         <title>Footer added and RSS feed</title>
         <pubDate>Sat, 28 Oct 2023 12:57:00 EST</pubDate>

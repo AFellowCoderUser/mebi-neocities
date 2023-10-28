@@ -2,7 +2,7 @@ var footer = '<p>Created: 2023/06/08</p>'
 
 footer += '<div style="font-size:small">'
 footer += '<p>© DigitialMebi 2023</p>'
-footer += '<p>Powered by Neocities and Github</p>'
+footer += '<p>Powered by <a href="https://neocities.org/site/afellowu">Neocities</a> and <a href="https://github.com/AFellowCoderUser/mebi-neocities">Github</a></p>'
 footer += '</div>'
 
 footer += '<p><a href="#">To the top, please.</a></p>'
