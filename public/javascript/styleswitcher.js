@@ -17,7 +17,7 @@ function changeStyle(style, js) {
       js = localStorage.getItem("js");
       if (js == null) 
           js = "mebi";
-    document.querySelector("script[type='text/javascript']").setAttribute("href", '/javascript/replace/' + js + ".js");
+    document.querySelector("script[type='text/javascript']").setAttribute("href", /javascript/ + /replace/ + js + ".js");
     localStorage.setItem("js", js);
 }
 
