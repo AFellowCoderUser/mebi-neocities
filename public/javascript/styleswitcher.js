@@ -13,11 +13,12 @@ function changeStyle(style, js) {
             style = "mebi";
     document.querySelector("link[type='text/css']").setAttribute("href", /styles/ + style + ".css");
     localStorage.setItem("style", style);
+
     if (js == null)
       js = localStorage.getItem("js");
       if (js == null) 
           js = "mebi";
-    document.querySelector("script[type='text/javascript']").setAttribute("href", /javascript/ + /replace/ + js + ".js");
+    document.querySelector("script[type='text/javascript']").setAttribute("src", "/javascript/replace/" + js + ".js");
     localStorage.setItem("js", js);
 }
 
