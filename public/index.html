@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="/styles/base.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="/javascript/styleswitcher.js"></script>
-    <script type="text/javascript" src="/javascript/mebi.js"></script>
   </head>
   <body>
 
@@ -184,13 +183,14 @@
           <div id="stylestyle">
             <form aria-label="styleswitcher">
               <label for="styleswitcher">Styleswitcher</label>
-              <select disabled id="selector" name="styleswitcher" onchange="changeStyle(this.value)" onchange="changeStyleJS(this.value)">
+              <select disabled id="selector" name="styleswitcher" onchange="changeStyle(this.value)">
                 <option value selected disabled>Choose Style</option>
                 <option value="mebi">Mebi</option>
                 <option value="halloween">Halloween</option>
               </select>
             </form>
           </div>
+          <script type="text/javascript" src="/javascript/replace/mebi.js"></script>
           
           <hr>
           <p align="center"><b>You are visitor</b> #<span id="hitcount"><script type="text/javascript" src="https://afellowu.neocities.org/javascript/updates-visitors.js"></script></span></p>
