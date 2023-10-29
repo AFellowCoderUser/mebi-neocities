@@ -6,6 +6,15 @@ function waitLoad(){
   selector.disabled = false;
 }
 
+function imagechange(val){
+  if (val == "mebi")
+     document.getElementById("cssbanner").src = "/images/page_deco/banner.png"
+     document.getElementById("cssnix_kate").src = "/images/page_deco/nix_kate.png";
+  if (val == "halloween")
+    document.getElementById("cssbanner").src = "/images/page_deco/halloween/banner.png"
+    document.getElementById("cssnix_kate").src = "/images/page_deco/halloween/nix_kate.png";
+}
+
 function changeStyle(style, js) {
     if (style == null)
         style = localStorage.getItem("style");
@@ -20,6 +29,7 @@ function changeStyle(style, js) {
           js = "mebi";
     document.querySelector("script[type='text/javascript']").setAttribute("src", "/javascript/replace/" + js + ".js");
     localStorage.setItem("js", js);
+    imagechange(js);
 }
 
 changeStyle();
