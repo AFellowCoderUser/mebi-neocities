@@ -15,4 +15,14 @@ function changeStyle(style) {
     localStorage.setItem("style", style);
 }
 
+function changeStyleJS(js) {
+  if (js == null)
+      js = localStorage.getItem("js");
+      if (js == null) 
+          js = "";
+  document.querySelector("link[type='text/javascript']").setAttribute("href", /javascript/ + js + ".js");
+  localStorage.setItem("js", js);
+}
+
 changeStyle();
+changeStyleJS();
