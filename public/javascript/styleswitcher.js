@@ -30,6 +30,7 @@ function changeStyle(style, js) {
           js = "mebi";
     document.querySelector("script[type='text/javascript']").setAttribute("src", "/javascript/replace/" + js + ".js");
     localStorage.setItem("js", js);
+    localStorage.setItem("js", imagechange(js));
     imagechange(js);
 }
 
