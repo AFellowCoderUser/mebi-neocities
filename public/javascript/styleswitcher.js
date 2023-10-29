@@ -19,8 +19,8 @@ function changeStyleJS(js) {
   if (js == null)
       js = localStorage.getItem("js");
       if (js == null) 
-          js = "";
-  document.querySelector("link[type='text/javascript']").setAttribute("href", /javascript/ + js + ".js");
+          js = "mebi";
+  document.querySelector("link[type='text/javascript']").setAttribute("href", /javascript/ + /replace/ + js + ".js");
   localStorage.setItem("js", js);
 }
 
