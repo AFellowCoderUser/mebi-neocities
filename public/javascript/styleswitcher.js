@@ -3,7 +3,8 @@ window.onload = function() {
 //enable style selector if javascript is enabled (if it isnt, well this wouldnt work)
   var selector = document.getElementById("selector");
   selector.disabled = false;
-}
+};
+
 function changeStyle(style, js) {
     if (style == null)
         style = localStorage.getItem("style");
@@ -28,4 +29,4 @@ function changeStyle(style, js) {
     }
     localStorage.setItem("js", js);
 }
-changeStyle();
+window.onload = changeStyle();
