@@ -20,7 +20,7 @@ function changeStyleJS(js) {
       js = localStorage.getItem("js");
       if (js == null) 
           js = "mebi";
-  document.querySelector("link[type='text/javascript']").setAttribute("href", /javascript/ + /replace/ + js + ".js");
+  document.querySelector("link[type='text/javascript']").setAttribute("href", '/javascript/replace/' + js + ".js");
   localStorage.setItem("js", js);
 }
 
