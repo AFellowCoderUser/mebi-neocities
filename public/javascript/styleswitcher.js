@@ -6,23 +6,19 @@ function waitLoad(){
   selector.disabled = false;
 }
 
-function changeStyle(style) {
+function changeStyle(style, js) {
     if (style == null)
         style = localStorage.getItem("style");
         if (style == null) 
             style = "mebi";
     document.querySelector("link[type='text/css']").setAttribute("href", /styles/ + style + ".css");
     localStorage.setItem("style", style);
-}
-
-function changeStyleJS(js) {
-  if (js == null)
+    if (js == null)
       js = localStorage.getItem("js");
       if (js == null) 
           js = "mebi";
-  document.querySelector("link[type='text/javascript']").setAttribute("href", '/javascript/replace/' + js + ".js");
-  localStorage.setItem("js", js);
+    document.querySelector("link[type='text/javascript']").setAttribute("href", '/javascript/replace/' + js + ".js");
+    localStorage.setItem("js", js);
 }
 
 changeStyle();
-changeStyleJS();
