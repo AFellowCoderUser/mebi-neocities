@@ -3,12 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://afellowu.neocities.org/">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mebi County - 404, Uh Oh!"/>
+    <meta property="og:description" content="A place where I share the many stuff that I want to share. Enjoy your stay, in Mebi County."/>
     <meta property="og:image" content="https://afellowu.neocities.org/images/thumbnail.png" />
     <meta property="twitter:card" content="summary_large_image">
     <title>Not Found</title>
     <link rel="stylesheet" type="text/css" href="/styles/mebi.css" />
     <link rel="stylesheet" type="text/css" href="/styles/base.css" />
     <script src="/javascript/styleswitcher.js"></script>
+    <style>
+      #go-back {
+        text-align:center;
+        text-decoration:underline;
+        color:var(--neon)
+      }
+    </style>
   </head>
   <body>
     <!--<h1>Page Not Found</h1>
@@ -20,7 +31,7 @@
       <a href="https://afellowu.neocities.org/">Return back home</a>
     </h2>
     <h3 align="center">or</h3>
-    <h2 style="text-align:center;text-decoration:underline;color:#09df77" onclick="history.back()">
+    <h2 id="go-back" onclick="history.back()">
       <a>Go back</a>
     </h2>
   </body>
