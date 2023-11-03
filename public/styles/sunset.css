@@ -11,9 +11,9 @@
   
     /**/
     --neon: var(--pink-link);
-    --link: var(--orange-border);
-    --dark: var(--orange-dark);
-    --darker: var(--orange-darker);
+    --link: var(--pink-border);
+    --dark: var(--pink-dark);
+    --darker: var(--pink-darker);
     
     --neon-other: var(--purple-neon);
     --link-other: var(--purple-link);
