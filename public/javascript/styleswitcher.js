@@ -30,6 +30,9 @@ function changeStyle(style, js) {
     } else if (js == "sunset") {
       document.getElementById("cssbanner").src = "/images/page_deco/sunset/banner.png"
       document.getElementById("cssnix_kate").src = "/images/page_deco/sunset/nix_kate.png";
+    } else if (js == "lakemist") {
+      document.getElementById("cssbanner").src = "/images/page_deco/lakemist/banner.png"
+      document.getElementById("cssnix_kate").src = "/images/page_deco/lakemist/nix_kate.png";
     }
     localStorage.setItem("js", js);
 }
