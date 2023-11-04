@@ -1,21 +1,21 @@
 :root {
-    --blue-link: #a8d2ff;
-    --blue-border: #416392;
-    --blue-dark: #21365c;
-    --blue-darker: #0f162b;
+    --mist-link: #a8d2ff;
+    --mist-border: #416392;
+    --mist-dark: #21365c;
+    --mist-darker: #0f162b;
     
-    --blue-link: #389aff;
+    --mist-linkother: #1588ff;
   
     /**/
-    --neon: var(--blue-link);
-    --link: var(--blue-border);
-    --dark: var(--blue-dark);
-    --darker: var(--blue-darker);
+    --neon: var(--mist-link);
+    --link: var(--mist-border);
+    --dark: var(--mist-dark);
+    --darker: var(--mist-darker);
     
-    --neon-other: var(--blue-neon);
-    --link-other: var(--blue-link);
-    --dark-other: var(--blue-dark);
-    --darker-other: var(--blue-darker);
+    --neon-other: var(--mist-neon);
+    --link-other: var(--mist-linkother);
+    --dark-other: var(--mist-dark);
+    --darker-other: var(--mist-darker);
   }
   
   
