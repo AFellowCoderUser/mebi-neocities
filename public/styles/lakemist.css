@@ -1,0 +1,21 @@
+:root {
+    --blue-link: #a8d2ff;
+    --blue-border: #416392;
+    --blue-dark: #21365c;
+    --blue-darker: #0f162b;
+    
+    --blue-link: #105fff;
+  
+    /**/
+    --neon: var(--blue-link);
+    --link: var(--blue-border);
+    --dark: var(--blue-dark);
+    --darker: var(--blue-darker);
+    
+    --neon-other: var(--blue-neon);
+    --link-other: var(--blue-link);
+    --dark-other: var(--blue-dark);
+    --darker-other: var(--blue-darker);
+  }
+  
+  

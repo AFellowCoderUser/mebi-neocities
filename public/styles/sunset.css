@@ -4,10 +4,10 @@
     --pink-dark: #54283f;
     --pink-darker: #270e1b;
     
-    --purple-neon: #d999ff;
-    --purple-link: #c000ff;
-    --darkpurple: #573075;
-    --darkpurple-black: #281735;
+    --red-neon: #ff999e;
+    --red-link: #ff414f;
+    --darkred: #592c2e;
+    --darkred-black: #2f1d1f;
   
     /**/
     --neon: var(--pink-link);
@@ -15,10 +15,10 @@
     --dark: var(--pink-dark);
     --darker: var(--pink-darker);
     
-    --neon-other: var(--purple-neon);
-    --link-other: var(--purple-link);
-    --dark-other: var(--darkpurple);
-    --darker-other: var(--darkpurple-black);
+    --neon-other: var(--red-neon);
+    --link-other: var(--red-link);
+    --dark-other: var(--darkred);
+    --darker-other: var(--darkred-black);
   }
   
   

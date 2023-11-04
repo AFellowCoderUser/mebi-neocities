@@ -1,0 +1,24 @@
+:root {
+    --pink-link: #f069ae;
+    --pink-border: #8e4269;
+    --pink-dark: #54283f;
+    --pink-darker: #270e1b;
+    
+    --purple-neon: #d999ff;
+    --purple-link: #c000ff;
+    --darkpurple: #573075;
+    --darkpurple-black: #281735;
+  
+    /**/
+    --neon: var(--pink-link);
+    --link: var(--pink-border);
+    --dark: var(--pink-dark);
+    --darker: var(--pink-darker);
+    
+    --neon-other: var(--purple-neon);
+    --link-other: var(--purple-link);
+    --dark-other: var(--darkpurple);
+    --darker-other: var(--darkpurple-black);
+  }
+  
+  
