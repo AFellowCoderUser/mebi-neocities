@@ -6,6 +6,7 @@ function waitLoad(){
   selector.disabled = false;
 }
 
+//credits to https://kalechips.net/stuff/snippets.php?p=styleswitcher.
 function changeStyle(style, js) {
     if (style == null)
         style = localStorage.getItem("style");
