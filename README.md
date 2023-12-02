@@ -1,3 +1,5 @@
+# Notice: New site repo [here](https://github.com/AFellowCoderUser/mebi-neo-11ty). This repo is no longer maintained.
+
 # mebi-neocities
 Repository containing the source code of my website on Neocities. Feel free to use the code here as a reference.
 
